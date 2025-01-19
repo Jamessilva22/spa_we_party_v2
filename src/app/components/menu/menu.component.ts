@@ -4,7 +4,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 
 @Component({
   selector: 'app-menu',
-  imports: [],
+  imports: [MatFormFieldModule],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })
